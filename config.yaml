@@ -13,7 +13,8 @@ arch:
 
 map:
   - config:ro
-
+hassio_api: true
+hassio_role: manager
 options:
   mqtt_host: "10.0.0.132"
   mqtt_port: 1883
