@@ -1,6 +1,6 @@
-#ARG BUILD_FROM
-#FROM $BUILD_FROM
-FROM python:3.9-alpine
+ARG BUILD_FROM
+FROM $BUILD_FROM
+#FROM python:3.9-alpine
 
 ENV WORK_DIR=workdir \
   HASSIO_DATA_PATH=/data
