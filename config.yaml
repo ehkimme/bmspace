@@ -10,6 +10,9 @@ arch:
   - armhf
   - armv7
   - i386
+uart: true
+map:
+  - config
 
 options:
   mqtt_host: "10.0.0.132"
