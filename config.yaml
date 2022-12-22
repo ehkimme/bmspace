@@ -10,9 +10,9 @@ arch:
   - armhf
   - armv7
   - i386
-uart: true
+
 map:
-  - config
+  - config:ro
 
 options:
   mqtt_host: "10.0.0.132"
@@ -40,3 +40,6 @@ schema:
   bms_port: int
   bms_serial: str
   scan_interval: int
+uart: true
+usb: true
+host_dbus: true
