@@ -2,7 +2,5 @@
 set -e
 
 echo "Hello BMS Pace"
-
-# cd "${0%/*}"
-
-tail -f /dev/null
+cd /workdir
+python3 -u ./bms.py
