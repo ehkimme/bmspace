@@ -5,4 +5,4 @@ echo "Hello BMS Pace"
 
 # cd "${0%/*}"
 cd /workdir
-python3 -u ./bms.py #"$@"
+tail -f /dev/null
